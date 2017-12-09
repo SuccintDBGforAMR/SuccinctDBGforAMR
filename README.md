@@ -9,20 +9,23 @@ linux machines only
 
 ### Prerequisites
 
-We have tested his program has been designed against MegaRes Database. To test against the same. 
-MegaRes database is downloaded along with the source code.
-
-The metagenomic database to test against the MegaRes database is available here
-https://trace.ncbi.nlm.nih.gov/Traces/sra/?view=search_seq_name&exp=SRX173750&run=&m=search&s=seq
-
-Download the two databases and paste their unzipped files into the main folder and run the script against them. 
+GCC Compiler should be installed
 
 JAVA should be installed before running anything.
-Link to install JAVA is given here:
+To check if JAVA is installed type java -version in command line and see if it returns the version. 
+If not, link to install JAVA is given here:
 https://www.java.com/en/download/help/download_options.xml
-To check if JAVA is installed type java -version in command line and see if it returns the version.
 
-GCC Compiler should be installed
+We have tested this program against the Human Metagenomic Data SRR532663	from the Human Metagenomic Project.
+This dataset can be downloaded at: 
+https://trace.ncbi.nlm.nih.gov/Traces/sra/?view=search_seq_name&exp=SRX173750&run=&m=search&s=seq
+
+For the AMR Database, we have provided a copy of the MEGARes database, sourced from the following link:
+https://megares.meglab.org/download/index.php
+
+Please ensure that both the datasets are downloaded and their unzipped files are available in the main folder (Defined as "Extracted Folder" below)of the code and run the script against them. 
+
+
 
 ### Directory structure
 
@@ -37,7 +40,7 @@ GCC Compiler should be installed
   		1e2. bwa_java -> Output from Java Utility 1
   		1e3. bwa_utils_output -> Contains final results
   
-  2. BDBA Folder
+  2. Source Code Folder
       This contains the JAVA source code files that need to be compiled. Compilation needs to be done in the root folder. 
 
 
@@ -50,17 +53,17 @@ This will compile the required tools and required libraries to run our program
 
 ## Running the Program
 
-Before running the program paste the two input files in the main folder.
+Before running the program ensure that the two input files are in the main folder.
 
 The two files are 1. AMR DATABASE 2. METAGENOMIC DATABASE
 
-To run the program run the ./sDBGAMR.sh
+To run the program run the ./script_final_v1.sh
 
 1. Input the AMR database file name *** Do not give full path, just the file name along with extension(.fastq , .fasta) e.g. amrdatabase.fasta
  
 2. Input the Metagenomic database file name *** Do not give full path, just the file name along with extension(.fastq , .fasta) e.g. metagenomic.fasta 
 
-3. The script takes care of everything else. All the output files are in the output_files filder
+3. The script takes care of everything else. All the output files are in the output_files folder
 
 
 
@@ -69,7 +72,7 @@ To run the program run the ./sDBGAMR.sh
 2. MARKER 2 : Argument number 3 :Kmer size( default = 5 ), Argument number 4 :Extension Length( default =10)
 
 
-## Authors
+## Authors 
 
 * **Pankhuri Mehndiratta**  
 * **Parth Rampal** 
@@ -82,8 +85,5 @@ To run the program run the ./sDBGAMR.sh
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* Burrows Wheeler Aligner<http://bio-bwa.sourceforge.net>
-* etc
-
+* Burrows Wheeler Aligner<http://bio-bwa.sourceforge.net>: Li H, Durbin R. Fast and accurate short read alignment with Burrows–Wheeler transform. Bioinformatics. 2009;25(14):1754-1760. doi:10.1093/bioinformatics/btp324. The Burrows Wheeler Aligner Code has been provided as is from their sourcefourge page and no changes have been made to it.
+* MEGARes: Lakin S. M., Dean C., Noyes N. R., Dettenwanger A., Ross A. S., Doster E., et al. (2017). MEGARes: an antimicrobial resistance database for high throughput sequencing. Nucleic Acids Res.
