@@ -31,13 +31,21 @@ Please ensure that both the datasets are downloaded and their unzipped files are
 
 1.Once you have extracted the download folder the structure will follow as follows
   1Extracted Folder
+  
   	1a. BWA Folder
+    
   	1b. Java Jar Files
+    
   	1c. Installation Script
+    
   	1d. Main Program Script
+    
   	1e. Output_files -> This directory is created after 	execution of program
+    
   		1e1. bwa_output -> Output from bwa
+      
   		1e2. bwa_java -> Output from Java Utility 1
+      
   		1e3. bwa_utils_output -> Contains final results
   
   2. Source Code Folder
@@ -57,7 +65,7 @@ Before running the program ensure that the two input files are in the main folde
 
 The two files are 1. AMR DATABASE 2. METAGENOMIC DATABASE
 
-To run the program run the ./script_final_v1.sh
+To run the program run the ./sDBGAMR.sh
 
 1. Input the AMR database file name *** Do not give full path, just the file name along with extension(.fastq , .fasta) e.g. amrdatabase.fasta
  
