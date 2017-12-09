@@ -3,8 +3,8 @@
 
 
 #this reads the input file fow bwa to match with megares database
-read -p	'enter full path to file for AMR database: ' amrdatabase
-read -p 'enter full path to file for metagenomic database:' metadatabase
+read -p	'enter filename for AMR database: ' amrdatabase
+read -p 'enter filename for metagenomic database:' metadatabase
 
 mkdir output_files
 #Going into BWA Folder
