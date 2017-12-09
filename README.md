@@ -73,6 +73,6 @@ To run the program run the ./script1.sh
 
 * Hat tip to anyone who's code was used
 * Inspiration
-* etc
 * Burrows Wheeler Aligner<http://bio-bwa.sourceforge.net>
+* etc
 
