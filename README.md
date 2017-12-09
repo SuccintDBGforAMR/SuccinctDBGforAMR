@@ -9,6 +9,14 @@ linux machines only
 
 ### Prerequisites
 
+We have tested this program against Megares Database. To test against the same. 
+Megares database is downloaded along with the source code.
+
+The metagenomic database to test against the Megares database is available here
+https://trace.ncbi.nlm.nih.gov/Traces/sra/?view=search_seq_name&exp=SRX173750&run=&m=search&s=seq
+
+Download the two databases and paste their unzipped files into the main folder and run the script against them. 
+
 JAVA should be installed before running anything.
 Link to install JAVA is given here:
 https://www.java.com/en/download/help/download_options.xml
@@ -40,10 +48,9 @@ This will compile the required tools and required libraries to run our program
 
 Before running the program paste the two input files in the main folder.
 
-The two files are 1. AMR DATABASE
-				  2. METAGENOMIC DATABASE
+The two files are 1. AMR DATABASE 2. METAGENOMIC DATABASE
 
-To run the program run the ./script1.sh
+To run the program run the ./script_final_v1.sh
 
 1. Input the AMR database file name *** Do not give full path, just the file name along with extension(.fastq , .fasta) e.g. amrdatabase.fasta
  
