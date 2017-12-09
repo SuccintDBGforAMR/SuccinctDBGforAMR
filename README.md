@@ -9,10 +9,10 @@ linux machines only
 
 ### Prerequisites
 
-We have tested this program against Megares Database. To test against the same. 
-Megares database is downloaded along with the source code.
+We have tested his program has been designed against MegaRes Database. To test against the same. 
+MegaRes database is downloaded along with the source code.
 
-The metagenomic database to test against the Megares database is available here
+The metagenomic database to test against the MegaRes database is available here
 https://trace.ncbi.nlm.nih.gov/Traces/sra/?view=search_seq_name&exp=SRX173750&run=&m=search&s=seq
 
 Download the two databases and paste their unzipped files into the main folder and run the script against them. 
@@ -20,6 +20,7 @@ Download the two databases and paste their unzipped files into the main folder a
 JAVA should be installed before running anything.
 Link to install JAVA is given here:
 https://www.java.com/en/download/help/download_options.xml
+To check if JAVA is installed type java -version in command line and see if it returns the version.
 
 GCC Compiler should be installed
 
@@ -35,6 +36,9 @@ GCC Compiler should be installed
   		1e1. bwa_output -> Output from bwa
   		1e2. bwa_java -> Output from Java Utility 1
   		1e3. bwa_utils_output -> Contains final results
+  
+  2. Source Code Folder
+      This contains the JAVA source code files that need to be compiled. Compilation needs to be done in the root folder. 
 
 
 ### Installing
