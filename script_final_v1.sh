@@ -42,7 +42,7 @@ cp "partiallyOverlapAligned.fasta" output_files/bwa_java
 
 
 #***************** MARKER 2 *****************
-java -cp AMRUtils.jar deBruijnGraph.dbg "output_files/bwa_java/partiallyOverlapAligned.fasta" "output_files/bwa_java/alignedReads.fasta"
+java -cp AMRUtilsTest_new.jar deBruijnGraph.dbg "output_files/bwa_java/partiallyOverlapAligned.fasta" "output_files/bwa_java/alignedReads.fasta"
 
 
 mkdir output_files/java_utils_output
@@ -50,7 +50,7 @@ mkdir output_files/java_utils_output
 cp output_files/bwa_java/extendedReads.fasta output_files/java_utils_output/
 
 
-java -cp AMRUtils.jar succinctDeBruijnGraph.sdbg "output_files/bwa_java/partiallyOverlapAligned.fasta" "output_files/bwa_java/alignedReads.fasta"
+java -cp AMRUtilsTest_new.jar succinctDeBruijnGraph.sdbg "output_files/bwa_java/partiallyOverlapAligned.fasta" "output_files/bwa_java/alignedReads.fasta"
 
 cp output_files/bwa_java/succinctDBGDataStruct.txt output_files/java_utils_output/
 
