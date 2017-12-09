@@ -54,7 +54,7 @@ Before running the program paste the two input files in the main folder.
 
 The two files are 1. AMR DATABASE 2. METAGENOMIC DATABASE
 
-To run the program run the ./script_final_v1.sh
+To run the program run the ./sDBGAMR.sh
 
 1. Input the AMR database file name *** Do not give full path, just the file name along with extension(.fastq , .fasta) e.g. amrdatabase.fasta
  
