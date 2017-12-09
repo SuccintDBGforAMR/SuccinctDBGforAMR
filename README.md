@@ -26,15 +26,15 @@ GCC Compiler should be installed
 ### Directory structure
 
 1.Once you have extracted the download folder the structure will follow as follows
-  ---Extracted Folder
-  	---- BWA Folder
-  	---- Java Jar Files
-  	---- Installation Script
-  	---- Main Program Script
-  	---- Output_files -> This directory is created after 	execution of program
-  		----bwa_output -> Output from bwa
-  		----bwa_java -> Output from Java Utility 1
-  		----bwa_utils_output -> Contains final results
+  1Extracted Folder
+  	1a. BWA Folder
+  	1b. Java Jar Files
+  	1c. Installation Script
+  	1d. Main Program Script
+  	1e. Output_files -> This directory is created after 	execution of program
+  		1e1. bwa_output -> Output from bwa
+  		1e2. bwa_java -> Output from Java Utility 1
+  		1e3. bwa_utils_output -> Contains final results
 
 
 ### Installing
