@@ -61,9 +61,9 @@ To run the program run the ./script1.sh
 ## Authors
 
 * **Pankhuri Mehndiratta**  
-  **Parth Rampal        ** 
-  **Sarthak Chauhan     ** 
-  **Suvadeep Chaudhuri  ** 
+* **Parth Rampal        ** 
+* **Sarthak Chauhan     ** 
+* **Suvadeep Chaudhuri  ** 
 
 
 
