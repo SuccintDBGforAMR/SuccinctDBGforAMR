@@ -37,7 +37,7 @@ GCC Compiler should be installed
   		1e2. bwa_java -> Output from Java Utility 1
   		1e3. bwa_utils_output -> Contains final results
   
-  2. Source Code Folder
+  2. BDBA Folder
       This contains the JAVA source code files that need to be compiled. Compilation needs to be done in the root folder. 
 
 
